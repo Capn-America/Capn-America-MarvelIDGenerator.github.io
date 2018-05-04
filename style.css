@@ -1,0 +1,288 @@
+body
+{
+	background-image: url("https://image.ibb.co/dVWdZS/shield_Background.jpg");
+	background-position: center;
+
+    text-align:center;
+    margin-bottom: 20px;
+
+}
+
+p
+{
+	display: inline-block;
+}
+
+
+
+
+		
+
+
+
+#header
+{
+text-align: center;
+	
+	
+}
+
+#container
+{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	
+}
+
+#trainingComplete
+{
+		text-shadow: 0 0 3px #0000FF, 0 0 5px #4666FF;
+		font-size: 30px;
+		height: 200px;
+		background-image: url("https://image.ibb.co/np3gon/nickFury.jpg");
+		background-position:center;
+		background-repeat: repeat-y;
+
+		color: white;
+		margin-bottom:20px;
+}
+
+#leftColumn
+{	
+	
+	border: darkgray 10px;
+	border-style: outset;
+	padding: 0px;
+
+}
+
+#rightColumn
+{
+	border: darkgray 10px;
+	border-style: outset;
+	padding: 0px;
+	color:white;
+}
+
+/*#columnTitles
+{
+
+}
+
+#formId
+{
+
+}*/
+
+#card
+
+{
+	  margin: 0 auto;
+	display: flex;
+	width: 800px;
+	padding-right: 20px;
+
+	border: darkgray 10px;
+	border-style: outset;
+	background: radial-gradient(lightblue,aqua,blue);
+	justify-content: space-around;
+		align-items:center;
+		hight: 480px;
+}
+
+.cardStock
+{
+	
+		
+			/*border: dashed black 1px;*/
+			align-self: stretch;
+	
+	    padding: 10px;
+	  
+	    text-align: center;
+}
+
+#deetsName
+{
+			font-family: "Times New Roman", Times, serif;
+    font-weight: Bold;
+    display: inline;
+    /*border: dashed black 1px;*/
+
+}
+
+#deetsSkills
+{
+			font-family: "Times New Roman", Times, serif;
+    font-weight: Bold;
+    display: inline;
+    /*border: dashed black 1px;*/
+}
+
+#cardStockCaptain
+{
+	display: flex;
+	
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	/*border: dashed black 1px;*/
+	align-self: center;
+
+	
+}
+
+#CodeName
+{
+	text-align: left;
+}
+
+
+
+#cardLeft
+{
+	border: solid silver 1px;
+	background-image: url("https://image.ibb.co/gOM1on/Plaque.png");
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: 230px;
+	width: 350px;
+	align-items: stretch;
+
+
+}
+
+	/*#cardInfo
+	{
+
+	}
+
+	#shieldLogo
+	{
+
+	}*/
+
+#cardShieldContainer
+{
+	
+	
+	padding: 20px;
+	display: inline-block;
+	}
+
+#S1
+{	
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 350px;
+	height: 350px;
+	background: red;
+	-moz-border-radius: 300px;
+	-webkit-border-radius: 300px;
+	border-radius: 300px;
+	border: black solid 1.5px;
+
+}
+
+#S2
+{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	background: white;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	border: black solid 1.5px;
+
+}
+
+#S3
+{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 250px;
+	height: 250px;
+	background: red;
+	-moz-border-radius:150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	border: black solid 1.5px;
+
+}
+
+#centerShield
+{
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: space-between;
+	width: 205px;
+	height: 205px;
+	background: blue;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: black solid 1.5px;
+
+}
+
+
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: white;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid white;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid white;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: red;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid white;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
